@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
+Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2019.06.13 às 05:20:07 PM BRT 
+
+  -->
+  <bindings xmlns:tns="http://www.everis.com/xml/pessoas" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.soap.wsdl.schemas.pessoas"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:PessoaRequest">
+      <class ref="com.soap.wsdl.schemas.pessoas.PessoaRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:PessoaResponse">
+      <class ref="com.soap.wsdl.schemas.pessoas.PessoaResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Pessoa">
+      <class ref="com.soap.wsdl.schemas.pessoas.Pessoa"/>
+    </bindings>
+  </bindings>
+</bindings>
