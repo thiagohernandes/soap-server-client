@@ -6,6 +6,7 @@ diretórios: everis-wsdl (server) e everis-wsdl-client (client)
 http://localhost:8080/service/pessoasWsdl.wsdl
 ## IMPORTANTE!
 Primeiro: no everis-wsdl -> Maven Clean e Install -> será gerado os arquivos referente a configuração do envelope
+
 Segundo: no everis-wsdl-client -> criar o diretório "wsdl" com o arquivo WSDL "pessoasWsdl.wsdl" e em seguida: Maven Clean e Install com a configuração (plugin) abaixo do Maven:
 
 ```
